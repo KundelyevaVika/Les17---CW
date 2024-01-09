@@ -13,4 +13,12 @@ int main() {
 		arr[i].show();
 		cout << endl;
 	}
+	cout << "=============================\n";
+	for (int i = 0; i < 4; i++)
+	{
+		if (arr[i].getOZU() > 10) {
+			arr[i].show();
+			cout << endl;
+		}
+	}
 }
